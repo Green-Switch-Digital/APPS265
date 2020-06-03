@@ -1,0 +1,208 @@
+/*Mobile devices style sheet*/
+@media (max-width: 800px){
+	
+	.links{
+		display: none;
+		width:100%;
+		float:left;
+	}
+	
+	.form{
+		display: none;
+	}
+	
+	#search-icon{
+		display: block;
+		width: 30px;
+		float:right;
+		cursor: pointer;
+		padding-top:15px;
+		padding-bottom: 15px;
+		padding-left:20px;
+		padding-right:20px;
+	}
+	
+	.sign-in{
+		display: none;
+	}
+	
+	.d1{
+		width: 50%;
+		margin-left: 25%;
+		margin-right: 25%;
+	}
+	#search-icon:hover{
+		background: rgba(250,250,250,0.5);
+	}
+	
+
+	
+	.top-title{
+		font-size: small;
+	}
+
+	
+	.game-data{
+		width: 90%;
+		float: left;
+		margin-left:5%;
+		margin-right:5%;
+		margin-top: 50px;
+	}
+	
+	.side-view{
+		width:92%;
+		float: left;
+		margin-left: 4%;
+		margin-right: 4%;
+		height: auto;
+		overflow: scroll;
+	}
+	
+	.top10{
+		height: auto;
+	}
+	
+	.ratings{
+		width: 60%;
+		margin-left: 20%;
+		border-radius: 50px;
+	}
+	
+	.game{
+		width: 95%;
+		float: left;
+		background: rgba(0,0,0,0.3);
+	}
+	
+	.game img{
+		width: 100%;
+		height: 300px;
+		object-fit: cover;
+	}
+	
+	.category{
+		width: 100%;
+		float: left;
+	}
+	
+	.category h3{
+		text-align: left;
+	}
+	
+	.comments{
+		width: 90%;
+		margin:0px;
+		padding:0px;
+	}
+	.comment{
+		width: 100%;
+	}
+	
+	.response{
+		width: 100%;
+	}
+	
+	.response input,.response textarea{
+		width: 90%;
+		margin-bottom: 10px;
+	}
+	
+	.responsive-image{
+		width: 100%;
+		float: left
+	}
+	
+	
+	#content-controller #game-title-main{
+		width: 100%;
+		float: left;
+		margin-left: 10px;
+		font-size: x-large;
+	}
+	
+	#gt{
+		width: 100%;
+		
+	}
+	
+	#content-controller{
+		width: 100%;
+		float: left;
+	}
+	
+	#other-game-list{
+		width: 100%;
+		margin-left: 0px;
+		margin-top: 20px;
+	}
+	
+	.content{
+		width: 98%;
+		float: left;
+		margin: 1%;
+		padding: 10px;
+	}
+	
+	.game-holder{
+		width: 100%;
+		float: left;
+		padding: 10px;
+	}
+	
+	#game_icon{
+		height: 200px;
+		object-fit: contain;
+		
+	}
+
+#content2{
+	margin-top: 10px;
+	width: 98%;
+	margin-left: 1%;
+	margin-left: 1%;
+	float: left;
+	box-shadow: rgba(0,0,0,0.2) 2px 0px 10px 4px;
+}
+
+.game_hover_icon{
+	display: none;
+	}
+	
+	#infomatics{
+		width: 100%;
+	}
+
+
+
+#game-card{
+	width: 48%;
+margin-bottom: 30px;
+}
+	
+	
+#game-card-news{
+	width: 98%;
+margin-bottom: 30px;
+}
+	#btn-dowload-gamejam{
+		
+	}
+	
+	#download-icon{
+		width: 50px;
+	}
+	#main-notice{
+		font-size: large;
+	}
+	
+	#ol-data{
+	width: 100%;
+	list-style-type: none;
+
+}
+#ol-data li{
+	width: 100%;
+	float: left;
+}
+}

@@ -1,0 +1,21 @@
+body{
+  width:100%;
+  float:left;
+}
+
+#carouselExampleIndicators{
+	position: fixed;
+	float: left;
+	z-index: 1;
+}
+
+#content-main{
+	width: 100%;
+	float: left;
+	z-index: 2;
+	margin-top: 400px;
+	height: 100%;
+	overflow-y: scroll;
+	position: fixed;
+	background: red;
+}
